@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><!--encabezado, protocolo para el español, el viewport, referencia para enbabezado-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body><!--cuerpo del html, los div especifican mas componentes, el input es la parte negra de la calculadora, el display-->
     <div>
         <input type="text" id="display" class="calculator-screen" value="" disabled>
-        <div class="calculator-buttons">
+        <div class="calculator-buttons"><!--botones con acciones/ eventos o funciones, como el boton clear,
+             al momento delclick va a llamar un evento/funcion-->
 
             
             <button class="button" onclick="clearDisplay()">C</button>
